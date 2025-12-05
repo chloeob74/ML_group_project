@@ -22,7 +22,6 @@ args <- parse_args(OptionParser(option_list = option_list))
 # Ensure folder structure
 dir_create("Data")
 dir_create("Data/raw")
-dir_create("Data/interim")
 dir_create("Data/processed")
 
 # Copy/standardize names under Data/raw/

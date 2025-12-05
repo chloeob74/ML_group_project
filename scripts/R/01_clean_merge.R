@@ -15,7 +15,7 @@ raw_laws_xlsx <- "Data/raw/TL-A243-2-v3 State Firearm Law Database 5.0.xlsx"
 laws_sheet <- "Database"
 
 # ---------- Output ----------
-out_path <- "Data/processed/firearm_data_cleaned_new.csv"
+out_path <- "Data/processed/firearm_data_cleaned.csv"
 
 # ---------- Load ----------
 if(!file.exists(raw_mortality)) stop("Missing input:", raw_mortality)
